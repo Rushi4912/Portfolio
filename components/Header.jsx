@@ -1,7 +1,10 @@
 import React from 'react';
+import ThemeTogler from './ThemeTogler';
 
 export const Header = () => {
   return (
-    <div>Header</div>
+       <div>
+            <ThemeTogler/>
+    </div>
   )
 }
