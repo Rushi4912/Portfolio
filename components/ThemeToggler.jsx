@@ -5,7 +5,7 @@ import {useTheme} from 'next-themes'
 
 import React from 'react'
 
-const ThemeTogler = () => {
+const ThemeToggler = () => {
      const { theme, setTheme } = useTheme();
      return (
           <div>
@@ -20,4 +20,4 @@ const ThemeTogler = () => {
      );
 };
 
-export default ThemeTogler;
+export default ThemeToggler;

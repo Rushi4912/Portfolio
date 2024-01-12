@@ -1,5 +1,6 @@
+"use client"
 import React from 'react';
-import motion from 'framer-motion';
+import {motion} from 'framer-motion';
 import useScrollProgress from '@/hooks/useScrollProgress';
 
 //varients
@@ -14,7 +15,7 @@ const Template = ({ children }) => {
   return (
        <>
        
-            <motion.main  varients = {varients} intial = 'hidden' animate='enter' transition={{transition:'linear',delay:0.2,duration:0.4}}>
+            <motion.main  varients = {varients} intial = 'hidden' animate='enter' transition={{type:'linear',delay:0.2,duration:0.4}}>
                  
                {children}
             </motion.main>
