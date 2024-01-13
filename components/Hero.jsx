@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from './ui/button';
 import { Download, Send } from 'lucide-react';
+import Link from 'next/link';
 import {
      RiBriefcase4Fill,
      RiTeamFill,
@@ -25,7 +26,11 @@ const Hero = () => {
                     
                            <h1 className='h1 mb-4'>Hello,my name is Rushikesh Pawar</h1>
                            <p className='subtitle max-w-[490px] ml-0 mx-auto xl:max-0'>Brief description with insights into myself , my vocational journey,and what I engage in professianally</p>
-                           <div>Buttons</div>
+                           <div>
+                                <Link href='/contact'>
+                                     <Button className='gap-x-2'>Contact me<Send size={18}/></Button>
+                                </Link>
+                           </div>
                       </div>
                       <div className='hidden xl:flex relative'>image</div>
                  </div>
