@@ -30,6 +30,10 @@ const Hero = () => {
                                 <Link href='/contact'>
                                      <Button className='gap-x-2'>Contact me<Send size={18}/></Button>
                                 </Link>
+
+                                <Link>
+                                     <Button varient='secon' className='gap-x-2'>Download CV<Download size={18}/></Button>
+                                </Link>
                            </div>
                       </div>
                       <div className='hidden xl:flex relative'>image</div>
