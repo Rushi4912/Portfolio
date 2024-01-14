@@ -40,7 +40,7 @@ const Hero = () => {
                       </div>
                       <div className='hidden xl:flex relative'>
                            
-                           <div className='bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-23'></div>
+                           <div className='bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2'></div>
                       </div>
                  </div>
 
