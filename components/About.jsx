@@ -68,6 +68,46 @@ const qualificationData = [
      },
 ];
 
+const skillData = [
+
+     {
+          title: 'skills',
+          data: [
+               
+               {
+
+                    name: 'HTML,CSS,JavaScript,Tailwind CSS,SASS'
+               },
+               {
+                    name: 'React,Recoil,Next Js,TypeScript'
+               },
+               {
+                    name: 'Node Js ,Express Js ,MongoDb,PostgreSQL'
+               }, {
+                    name: 'Docker,AWS'
+               }
+          ]
+     },
+     {
+
+          title: 'tools',
+          data: [
+               
+               {
+
+                    imagePath: '/about/vscode.svg'
+               }, {
+                    imagePath: '/about/figma.svg'
+               },
+               {
+                    imagePath: '/about/notion.svg'
+               }, {
+                    imagePath: '/about/wordpress.svg'
+               }
+          ]
+     }
+];
+
 
 const About = () => {
   return (
