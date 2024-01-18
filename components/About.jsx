@@ -31,13 +31,19 @@ const qualificationData = [
 
      {
 
-          title : 'education',
+          title : 'experience',
           data: [
                
-               {
-                    university: 'DBATU University',
-                    qualification: 'Bachelor of computer science',
-                    years :'2021-2025',
+              
+                {
+                    company: 'Freelancer',
+                    qualification: 'Full Stack Engineer',
+                    years :'2023-2025',
+               },
+                {
+                    company: 'Open AI',
+                    qualification: 'AI Engineer',
+                    years :'2030-2032'
                }
           ]
      }
@@ -46,7 +52,10 @@ const qualificationData = [
 
 const About = () => {
   return (
-    <div>About</div>
+       <div>
+            
+
+    </div>
   )
 }
 
