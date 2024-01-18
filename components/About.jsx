@@ -31,12 +31,30 @@ const qualificationData = [
 
      {
 
+          title: 'education',
+          data: [
+               
+               {
+                    university: 'DBATU University',
+                     qualification: 'Bachelor of computer science',
+                    years :'2021-2025'
+               },
+               {
+                    university: 'Another University',
+                    qualification: 'Bachelor of computer science',
+                    years :'2021-2025',
+               },
+          ]
+     },
+
+     {
+
           title : 'experience',
           data: [
                
               
                 {
-                    company: 'Freelancer',
+                    university: 'Freelancer',
                     qualification: 'Full Stack Engineer',
                     years :'2023-2025',
                },
@@ -45,8 +63,9 @@ const qualificationData = [
                     qualification: 'AI Engineer',
                     years :'2030-2032'
                }
+     
           ]
-     }
+     },
 ];
 
 
