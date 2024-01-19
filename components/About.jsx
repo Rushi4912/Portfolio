@@ -1,7 +1,7 @@
 import React from 'react';
 import DevImg from './DevImg';
 import Image from 'next/image';
-import { Tabs, TabContent, TabList, TabTrigger } from '@/components/ui/tabs';
+import { Tabs, TabsList, TabsTrigger ,TabsContent} from '@/components/ui/tabs';
 import { User2, MailIcon, HomeIcon, PhoneCall, GraduationCap, Calender, BriefCase } from 'lucide-react';
 
 const InfoData =[
@@ -132,15 +132,15 @@ const About = () => {
                            
                            <Tabs defaultValue='personal'>
                                 
-                                <TabList className ='w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none'>
-                                     <TabTrigger value ='personal'> Personal Info</TabTrigger>
-                                     <TabTrigger value ='qualifications'> Qualification</TabTrigger>
-                                        <TabTrigger value='skills'> Skills</TabTrigger>
-                                </TabList>
+                                <TabsList className ='w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none'>
+                                     <TabsTrigger value ='personal'> Personal Info</TabsTrigger>
+                                     <TabsTrigger value ='qualifications'> Qualification</TabsTrigger>
+                                        <TabsTrigger value='skills'> Skills</TabsTrigger>
+                                </TabsList>
                                 <div className='text-lg mt-12 xl:mt-8'>
-                                     <TabContent value='personal'> personal info</TabContent>
-                                     <TabContent value='qualifications'> qualifications info</TabContent>
-                                      <TabContent value='skills'> skills info</TabContent>
+                                     <TabsContent value='personal'> personal info</TabsContent>
+                                     <TabsContent value='qualifications'> qualifications info</TabsContent>
+                                      <TabsContent value='skills'> skills info</TabsContent>
                                 </div>
                              </Tabs>
                       </div>
