@@ -133,12 +133,19 @@ const About = () => {
                            <Tabs defaultValue='personal'>
                                 
                                 <TabsList className ='w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none'>
-                                     <TabsTrigger value ='personal'> Personal Info</TabsTrigger>
-                                     <TabsTrigger value ='qualifications'> Qualification</TabsTrigger>
-                                        <TabsTrigger value='skills'> Skills</TabsTrigger>
+                                     <TabsTrigger className='w-[162px] xl:w-auto' value ='personal'> Personal Info</TabsTrigger>
+                                     <TabsTrigger className='w-[162px] xl:w-auto' value ='qualifications'> Qualification</TabsTrigger>
+                                        <TabsTrigger className='w-[162px] xl:w-auto' value='skills'> Skills</TabsTrigger>
                                 </TabsList>
                                 <div className='text-lg mt-12 xl:mt-8'>
-                                     <TabsContent value='personal'> personal info</TabsContent>
+                                     <TabsContent value='personal'>
+                                     
+                                          <div>
+                                               <h3 className='h3 mb-4'>Unmatched Service Quality for Over 2 Years</h3>
+                                               <p className='subtitle max-w-xl max-auto xl:max-0'> I specialize in crafting intuitive websites with cutting-edge technology ,delivering dynamic and engaging user experiences.</p>
+                                     </div>
+                                     
+                                     </TabsContent>
                                      <TabsContent value='qualifications'> qualifications info</TabsContent>
                                       <TabsContent value='skills'> skills info</TabsContent>
                                 </div>
