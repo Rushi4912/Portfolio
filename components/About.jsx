@@ -1,7 +1,18 @@
+// "use client"; 
 import React from "react";
 import DevImg from "./DevImg";
 import Image from "next/image";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+// import {
+//   User2,
+//   MailIcon,
+//   HomeIcon,
+//   PhoneCall,
+//   GraduationCap,
+//   Calender,
+//   BriefCase,
+// } from "lucide-react";
+
 import {
   User2,
   MailIcon,
@@ -14,7 +25,7 @@ import {
 
 const InfoData = [
   {
-    icon: <User2 size={20} />,
+    icon: <User2 size={20}/>,
     text: "Rushikesh Pawar",
   },
   {
@@ -34,6 +45,40 @@ const InfoData = [
     text: "Beed Maharastra India",
   },
 ];
+// const qualificationData = [
+//   {
+//     title: "education",
+//     data: [
+//       {
+//         university: "DBATU University",
+//         qualification: "Bachelor of computer science",
+//         years: "2021-2025",
+//       },
+//       {
+//         university: "Another University",
+//         qualification: "Bachelor of computer science",
+//         years: "2021-2025",
+//       },
+//     ],
+//   },
+
+//   {
+//     title: "experience",
+//     data: [
+//       {
+//         company: "Freelancer",
+//         role: "Full Stack Engineer",
+//         years: "2023-2025",
+//       },
+//       {
+//         company: "Open AI",
+//         role: "AI Engineer",
+//         years: "2030-2032",
+//       },
+//     ],
+//   },
+// ];
+
 const qualificationData = [
   {
     title: "education",
@@ -50,7 +95,6 @@ const qualificationData = [
       },
     ],
   },
-
   {
     title: "experience",
     data: [
@@ -62,11 +106,12 @@ const qualificationData = [
       {
         company: "Open AI",
         role: "AI Engineer",
-        years: "2030-2032",
+        // years: "2030-2032",
       },
     ],
   },
 ];
+
 
 const skillData = [
   {
@@ -136,7 +181,7 @@ const About = () => {
                   value="qualifications"
                 >
                   {" "}
-                  Qualification
+                  Qualifications
                 </TabsTrigger>
                 <TabsTrigger className="w-[162px] xl:w-auto" value="skills">
                   {" "}
@@ -155,7 +200,7 @@ const About = () => {
                       cutting-edge technology ,delivering dynamic and engaging
                       user experiences.
                     </p>
-                    // icons
+
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {InfoData.map((item, index) => {
                         return (
@@ -169,7 +214,7 @@ const About = () => {
                         );
                       })}
                     </div>
-                    // languages
+
                     <div className="flex flex-col gap-y-2">
                       <div className="text-primary">Language Skill</div>
                       <div className="border-b border-border"></div>
@@ -211,7 +256,7 @@ const About = () => {
                                     <div className="text-lg leading-none text-muted-foreground mb-4">
                                       {role}
                                     </div>
-                                    <div className="txet-base font-medium">
+                                    <div className="text-base font-medium">
                                       {years}
                                     </div>
                                   </div>
@@ -263,7 +308,6 @@ const About = () => {
                   </div>
                 </TabsContent>
                 <TabsContent value="skills">
-                
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-8">What I Use EveryDay</h3>
                     <div className="mb-16">
@@ -271,42 +315,46 @@ const About = () => {
                       <div className="border-b border-border mb-4"></div>
                       {/* skills list  */}
                       <div>
-
-                        {
-
-                          getData(skillData, 'skills').data.map((item, index) => {
-                            
+                        {getData(skillData, "skills").data.map(
+                          (item, index) => {
                             const { name } = item;
                             return (
-                              <div className="w-2/4 text-center xl:text-left mx-auto xl:mx-0" key={index}>
-
+                              <div
+                                className="w-2/4 text-center xl:text-left mx-auto xl:mx-0"
+                                key={index}
+                              >
                                 <div className="font-medium">{name}</div>
                               </div>
                             );
-
-                          })
-                        }
+                          }
+                        )}
                       </div>
                     </div>
                     {/* tools  */}
                     <div>
-
-                      <h4 className="text-xl font-semibold mb-2 xl:text-left">Tools</h4>
+                      <h4 className="text-xl font-semibold mb-2 xl:text-left">
+                        Tools
+                      </h4>
                       <div className="border-b border-border mb-8"></div>
-                         {/* tool list  */}
+                      {/* tool list  */}
                       <div className="flex gap-x-8 justify-center xl:justify-start">
-                        {getData(skillData, 'tools').data.map((item, index) => {
-                           
+                        {getData(skillData, "tools").data.map((item, index) => {
                           const { imgPath } = item;
-                          return <div key={index}>
-
-                            <Image src={imgPath} width={48} height={48} alt='' priority/>
-                          </div>
-                         })}
+                          return (
+                            <div key={index}>
+                              <Image
+                                src={imgPath}
+                                width={48}
+                                height={48}
+                                alt=""
+                                priority
+                              />
+                            </div>
+                          );
+                        })}
                       </div>
                     </div>
-                </div>
-                
+                  </div>
                 </TabsContent>
               </div>
             </Tabs>

@@ -14,10 +14,11 @@ module.exports = {
       padding: "2rem",
     },
     screens: {
+     
       sm: "640px",
       md: "768px",
-      sm: "1024px",
-      sm: "1400px",
+      lg: "1024px",
+      xl: "1400px",
     },
     extend: {
       colors: {
