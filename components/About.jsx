@@ -106,7 +106,7 @@ const qualificationData = [
       {
         company: "Open AI",
         role: "AI Engineer",
-        // years: "2030-2032",
+        years: "2030-2032",
       },
     ],
   },
