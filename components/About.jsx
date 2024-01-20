@@ -13,15 +13,20 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 //   BriefCase,
 // } from "lucide-react";
 
+
 import {
   User2,
   MailIcon,
   HomeIcon,
   PhoneCall,
-  GraduationCap,
   Calender,
   BriefCase,
+  GraduationCap
+
+
 } from "lucide-react";
+
+
 
 const InfoData = [
   {
@@ -236,7 +241,7 @@ const About = () => {
                     <div className="grid md:grid-cols-2 gap-y-8">
                       {/* experience     */}
                       <div className="flex flex-col gap-y-6">
-                        <div className="flex gap-x-4 items-center text-[22px]">
+                        <div className="flex gap-x-4 items-center text-[22px] text-primary">
                           <BriefCase />
 
                           <h4 className="capitalize font-medium">
@@ -258,7 +263,7 @@ const About = () => {
                               return (
                                 <div className="flex gap-x-8 group" key={index}>
                                   <div className="h-[84px] w-[1px] bg-border relative ml-2">
-                                    <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-5 group-hover:translate-y-[84px] transition-all duration-500"></div>
+                                    <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
                                   </div>
                                   <div>
                                     <div className="font-semibold text-xl leading-none">
@@ -268,7 +273,10 @@ const About = () => {
                                       {role}
                                     </div>
                                     <div className="text-base font-medium">
-                                      {years}
+                                      {/* {years} */}
+                                      {/* {typeof years !== "undefined"
+                                        ? years
+                                        : "N/A"} */}
                                     </div>
                                   </div>
                                 </div>
@@ -302,7 +310,7 @@ const About = () => {
                               return (
                                 <div className="flex gap-x-8 group" key={index}>
                                   <div className="h-[84px] w-[1px] bg-border relative ml-2">
-                                    <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-5 group-hover:translate-y-[84px] transition-all duration-500"></div>
+                                    <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px]group-hover:translate-y-[84px] transition-all duration-500"></div>
                                   </div>
                                   <div>
                                     <div className="font-semibold text-xl leading-none">
@@ -312,7 +320,10 @@ const About = () => {
                                       {qualification}
                                     </div>
                                     <div className="text-base font-medium">
-                                      {years}
+                                      {/* {years} */}
+                                      {/* {typeof years !== "undefined"
+                                        ? years
+                                        : "N/A"} */}
                                     </div>
                                   </div>
                                 </div>
