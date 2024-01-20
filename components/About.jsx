@@ -154,6 +154,11 @@ const About = () => {
   const getData = (arr, title) => {
     return arr.find((item) => item.title === title);
   };
+  // const getData = (arr, category) => {
+  //   const categoryData = arr.find((item) => item.title === category);
+  //   return categoryData ? categoryData.data : [];
+  // };
+
 
   return (
     <section className="xl:h-[860px] pb-12 xl:py-24">
@@ -237,6 +242,12 @@ const About = () => {
                           <h4 className="capitalize font-medium">
                             {getData(qualificationData, "experience").title}
                           </h4>
+                          {/* <h4 className="capitalize font-medium">
+                            {getData(qualificationData, "experience").length >
+                              0 &&
+                              getData(qualificationData, "experience")[0]
+                                .company}
+                          </h4> */}
                         </div>
                         {/* list  */}
 
@@ -247,7 +258,7 @@ const About = () => {
                               return (
                                 <div className="flex gap-x-8 group" key={index}>
                                   <div className="h-[84px] w-[1px] bg-border relative ml-2">
-                                    <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
+                                    <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-5 group-hover:translate-y-[84px] transition-all duration-500"></div>
                                   </div>
                                   <div>
                                     <div className="font-semibold text-xl leading-none">
@@ -275,6 +286,12 @@ const About = () => {
                           <h4 className="capitalize font-medium">
                             {getData(qualificationData, "education").title}
                           </h4>
+                          {/* <h4 className="capitalize font-medium">
+                            {getData(qualificationData, "education").length >
+                              0 &&
+                              getData(qualificationData, "education")[0]
+                                .university}
+                          </h4> */}
                         </div>
                         {/* list  */}
 
@@ -285,7 +302,7 @@ const About = () => {
                               return (
                                 <div className="flex gap-x-8 group" key={index}>
                                   <div className="h-[84px] w-[1px] bg-border relative ml-2">
-                                    <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
+                                    <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-5 group-hover:translate-y-[84px] transition-all duration-500"></div>
                                   </div>
                                   <div>
                                     <div className="font-semibold text-xl leading-none">
@@ -294,7 +311,7 @@ const About = () => {
                                     <div className="text-lg leading-none text-muted-foreground mb-4">
                                       {qualification}
                                     </div>
-                                    <div className="txet-base font-medium">
+                                    <div className="text-base font-medium">
                                       {years}
                                     </div>
                                   </div>
@@ -339,11 +356,11 @@ const About = () => {
                       {/* tool list  */}
                       <div className="flex gap-x-8 justify-center xl:justify-start">
                         {getData(skillData, "tools").data.map((item, index) => {
-                          const { imgPath } = item;
+                          const { imagePath } = item;
                           return (
                             <div key={index}>
                               <Image
-                                src={imgPath}
+                                src={imagePath}
                                 width={48}
                                 height={48}
                                 alt=""
