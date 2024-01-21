@@ -20,10 +20,9 @@ import {
   HomeIcon,
   PhoneCall,
   Calender,
-  BriefCase,
-  GraduationCap
-
-
+  // BriefCase,
+  BriefCase as BriefCaseIcon,
+  GraduationCap,
 } from "lucide-react";
 
 
@@ -94,7 +93,7 @@ const qualificationData = [
         years: "2021-2025",
       },
       {
-        university: "Another University",
+        university: "Internet University",
         qualification: "Bachelor of computer science",
         years: "2021-2025",
       },
@@ -123,16 +122,16 @@ const skillData = [
     title: "skills",
     data: [
       {
-        name: "HTML,CSS,JavaScript,Tailwind CSS,SASS",
+        name: "HTML ,CSS ,JavaScript ,Tailwind CSS ,SASS",
       },
       {
-        name: "React,Recoil,Next Js,TypeScript",
+        name: "React ,Recoil ,Next Js ,TypeScript",
       },
       {
-        name: "Node Js ,Express Js ,MongoDb,PostgreSQL",
+        name: "Node Js ,Express Js ,MongoDb ,PostgreSQL",
       },
       {
-        name: "Docker,AWS",
+        name: "Docker ,AWS",
       },
     ],
   },
@@ -242,7 +241,8 @@ const About = () => {
                       {/* experience     */}
                       <div className="flex flex-col gap-y-6">
                         <div className="flex gap-x-4 items-center text-[22px] text-primary">
-                          <BriefCase />
+                          {/* <Calender />  */}
+                          <GraduationCap />
 
                           <h4 className="capitalize font-medium">
                             {getData(qualificationData, "experience").title}
@@ -269,11 +269,11 @@ const About = () => {
                                     <div className="font-semibold text-xl leading-none">
                                       {company}
                                     </div>
-                                    <div className="text-lg leading-none text-muted-foreground mb-4">
+                                    <div className="text-lg leading-none text-muted-foreground mb-4 mt-2">
                                       {role}
                                     </div>
                                     <div className="text-base font-medium">
-                                      {/* {years} */}
+                                      {years}
                                       {/* {typeof years !== "undefined"
                                         ? years
                                         : "N/A"} */}
@@ -309,18 +309,21 @@ const About = () => {
                               const { university, qualification, years } = item;
                               return (
                                 <div className="flex gap-x-8 group" key={index}>
-                                  <div className="h-[84px] w-[1px] bg-border relative ml-2">
+                                  {/* <div className="h-[84px] w-[1px] bg-border relative ml-2">
                                     <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px]group-hover:translate-y-[84px] transition-all duration-500"></div>
+                                  </div> */}
+                                  <div className="h-[84px] w-[1px] bg-border relative ml-2">
+                                    <div className="w-[11px] h-[11px] rounded-full bg-primary absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
                                   </div>
                                   <div>
                                     <div className="font-semibold text-xl leading-none">
                                       {university}
                                     </div>
-                                    <div className="text-lg leading-none text-muted-foreground mb-4">
+                                    <div className="text-lg leading-none text-muted-foreground mb-4 mt-2">
                                       {qualification}
                                     </div>
                                     <div className="text-base font-medium">
-                                      {/* {years} */}
+                                      {years}
                                       {/* {typeof years !== "undefined"
                                         ? years
                                         : "N/A"} */}
@@ -339,7 +342,9 @@ const About = () => {
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-8">What I Use EveryDay</h3>
                     <div className="mb-16">
-                      <h4 className="text-4xl font-semibold mb-2">Skills</h4>
+                      <h4 className="capitalize font-medium text-[22px] mb-2">
+                        Skills
+                      </h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* skills list  */}
                       <div>
@@ -360,7 +365,7 @@ const About = () => {
                     </div>
                     {/* tools  */}
                     <div>
-                      <h4 className="text-xl font-semibold mb-2 xl:text-left">
+                      <h4 className="capitalize font-medium text-[22px] mb-2 xl:text-left">
                         Tools
                       </h4>
                       <div className="border-b border-border mb-8"></div>
