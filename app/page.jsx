@@ -23,7 +23,7 @@ export default function Home() {
     // Initialize analytics
     analytics.init({
       // Add your project's deployment URL here
-      app: "portfolio-l3p5w482x-rushikesh-pawars-projects.vercel.app",
+      app: "portfolio-94cv2p7nz-rushikesh-pawars-projects.vercel.app",
     });
 
     // Track the initial pageview
