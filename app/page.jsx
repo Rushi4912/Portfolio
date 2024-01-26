@@ -1,3 +1,4 @@
+"use client";
 import Image from 'next/image';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
@@ -5,8 +6,10 @@ import Services from '@/components/Services';
 import Work from '@/components/Work';
 import Reviews from '@/components/Reviews';
 import Cta from '@/components/Cta';
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
+import { useRouter } from 'next/navigation'; // Updated import statement
 import analytics from "@vercel/analytics";
+import { useEffect } from 'react';
 
 
 export default function Home() {
@@ -20,7 +23,7 @@ export default function Home() {
     // Initialize analytics
     analytics.init({
       // Add your project's deployment URL here
-      app: "your-nextjs-app",
+      app: "portfolio-l3p5w482x-rushikesh-pawars-projects.vercel.app",
     });
 
     // Track the initial pageview
