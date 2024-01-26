@@ -6,7 +6,7 @@ const Logo = () => {
   return (
     <Link href='/'>
     
-      <Image src='/rushi2.png' width={70} height={54} priority alt='' />
+      <Image src='/rushi2.png' width={100} height={60} priority alt='' />
     </Link>
   );
 }
