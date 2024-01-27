@@ -26,7 +26,7 @@ const projectData = [
     image: "/work/3.png",
     category: "react js",
     name: "Nexa Website",
-    description: "this is nexa website made by rushikesh pawar",
+    description: "Coming Soon!",
     link: "/",
     github: "/",
   },
@@ -34,7 +34,7 @@ const projectData = [
     image: "/work/4.png",
     category: "react js",
     name: "Solstice Website",
-    description: "this is nexa website made by rushikesh pawar",
+    description: "Coming Soon!",
     link: "/",
     github: "/",
   },
@@ -42,7 +42,7 @@ const projectData = [
     image: "/work/2.png",
     category: "next js",
     name: "Lumina Website",
-    description: "this is nexa website made by rushikesh pawar",
+    description: "Coming Soon!",
     link: "/",
     github: "/",
   },
@@ -50,7 +50,7 @@ const projectData = [
     image: "/work/1.png",
     category: "next js",
     name: "Ignite Website",
-    description: "this is nexa website made by rushikesh pawar",
+    description: "Coming Soon!",
     link: "/",
     github: "/",
   },
@@ -58,7 +58,7 @@ const projectData = [
     image: "/work/4.png",
     category: "next js",
     name: "Envision Website",
-    description: "this is nexa website made by rushikesh pawar",
+    description: "Coming Soon!",
     link: "/",
     github: "/",
   },
@@ -66,7 +66,7 @@ const projectData = [
     image: "/work/3.png",
     category: "fullstack",
     name: "Serenity Website",
-    description: "this is nexa website made by rushikesh pawar",
+    description: "Coming Soon!",
     link: "/",
     github: "/",
   },
@@ -74,7 +74,7 @@ const projectData = [
     image: "/work/2.png",
     category: "fullstack",
     name: "Nova Website",
-    description: "this is nexa website made by rushikesh pawar",
+    description: "Coming Soon!",
     link: "/",
     github: "/",
   },
@@ -90,8 +90,9 @@ const Work = () => {
           <h2 className="section-title mb-4">Latest Projects</h2>
           <p className="subtitle mb-8">
             {" "}
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ad
-            laborum suscipit, voluptate iste consequuntur porro nulla maiores
+            Explore my latest projects, showcasing a fusion of innovation and
+            functionality. Dive into a portfolio that reflects my commitment to
+            delivering modern, high-quality solutions.
           </p>
           <Link href="/projects">
             <Button> All projects</Button>

@@ -12,19 +12,19 @@ const serviceData = [
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: "Web Design",
     description:
-      "psum dolor sit amet consectetur adipisicing elit. Quisquam fuga reiciendis aperiam accusamus omnis sit similique, fugit, nesciunt quam eligendi dicta? Tempora tenetur, veniam dolores ex perspiciatis id illo necessitatibus",
+      "Specializing in the art of creating visually stunning and user-friendly websites. The focus is on crafting intuitive interfaces that not only embody your brand but elevate the overall user experience.",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: "Web Development",
     description:
-      "psum dolor sit amet consectetur adipisicing elit. Quisquam fuga reiciendis aperiam accusamus omnis sit similique, fugit, nesciunt quam eligendi dicta? Tempora tenetur, veniam dolores ex perspiciatis id illo necessitatibus",
+      "Transforming digital ideas into reality, I excel in both front-end and back-end development. My expertise ranges from building responsive websites to implementing complex functionalities, delivering robust and efficient solutions.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
-    title: "SAAS",
+    title: "SaaS",
     description:
-      "psum dolor sit amet consectetur adipisicing elit. Quisquam fuga reiciendis aperiam accusamus omnis sit similique, fugit, nesciunt quam eligendi dicta? Tempora tenetur, veniam dolores ex perspiciatis id illo necessitatibus",
+      "Experience the power of custom cloud-based software solutions. From concept and architecture to deployment, my SaaS service ensures your business enjoys the benefits of streamlined workflows and seamless collaboration. Empower your business with innovative and efficient software tailored to your unique needs.",
   },
 ];
 

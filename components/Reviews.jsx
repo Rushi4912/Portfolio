@@ -17,42 +17,42 @@ const reviewData = [
     name: "Richard Thompson",
     job: "Chef",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, aut",
+      "Working with Rushikesh was an absolute pleasure! Their attention to detail and creativity in web design made my project stand out. The end result exceeded my expectations. I highly recommend Rushikesh for anyone looking for a skilled and reliable full-stack engineer..[Fictional]",
   },
   {
     avatar: "/reviews/avatar-3.png",
     name: "John",
     job: "CEO",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, aut",
+      "Rushikesh provided top-notch SaaS solutions for my business. From the initial concept to deployment, the process was smooth and professional. What stood out the most was their responsiveness to my needs and concerns. I feel confident in recommending Rushikesh for anyone seeking a reliable and skilled full-stack engineer..[Fictional]",
   },
   {
     avatar: "/reviews/avatar-4.png",
     name: "Emily",
     job: "Game dev",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, aut",
+      "I had the pleasure of collaborating with Rushikesh on a web development project, and I was impressed by their innovative solutions and seamless execution. They have a deep understanding of both front-end and back-end technologies. The final product was not only visually appealing but also highly functional. Looking forward to future collaborations! [Fictional]",
   },
   {
     avatar: "/reviews/avatar-1.png",
     name: "taylor",
     job: "Engineer",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, aut",
+      "I had a tight deadline for my web project, and Rushikesh delivered beyond my expectations. Their efficiency in web development and commitment to meeting deadlines was truly impressive. I appreciated the clear communication throughout the process. If you're looking for a results-driven full-stack engineer, Rushikesh is the one..[Fictional]",
   },
   {
     avatar: "/reviews/avatar-2.png",
-    name: " Thompson",
+    name: " Lily",
     job: "Doctor",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, aut",
+      "I approached Rushikesh for web design services, and I couldn't be happier with the results. Their focus on user-centric design not only enhanced the aesthetics but also improved the overall usability of our website. The attention to detail and commitment to creating an engaging user experience truly set Rushikesh apart..[Fictional]",
   },
   {
     avatar: "/reviews/avatar-3.png",
-    name: "R Thompson",
+    name: "David",
     job: "Teacher",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, aut",
+      "Reliability is key in the fast-paced world of web development, and Rushikesh is someone you can trust. From the initial consultation to the final deployment, every step was handled with professionalism. The communication was transparent, and the project was delivered on time. I highly recommend Rushikesh for any web-related projects.[Fictional]",
   },
 ];
 

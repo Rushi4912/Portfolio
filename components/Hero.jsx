@@ -25,7 +25,7 @@ const Hero = () => {
                            <div className='text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>Full Stack Engineer</div>
                     
                            <h1 className='h1 mb-4'>Hello,my name is Rushikesh Pawar</h1>
-                           <p className='subtitle max-w-[490px] ml-0 mx-auto xl:max-0'>Brief rushi description with insights into myself , my vocational journey,and what I engage in professianally</p>
+                           <p className='subtitle max-w-[490px] ml-0 mx-auto xl:max-0'>Brief description with insights into myself , my vocational journey,and what I engage in professianally</p>
                            <div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:max-0 mb-12'>
                                 <Link href='/contact'>
                                      <Button className='gap-x-2 '>Contact me<Send size={18}/></Button>
