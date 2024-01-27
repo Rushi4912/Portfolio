@@ -11,26 +11,26 @@ import React from 'react';
 
 const icons = [
   {
-    path: '/',
-    name: <RiYoutubeFill/>
+    path: "https://www.youtube.com/@sanskarirushi",
+    name: <RiYoutubeFill />,
   },
   {
-    path: '/',
-    name: <RiLinkedinFill/>
+    path: "https://www.linkedin.com/in/rushikesh-pawar-98063a228/",
+    name: <RiLinkedinFill />,
   },
   {
-    path: '/',
-    name: <RiGithubFill/>
+    path: "https://github.com/Rushi4912",
+    name: <RiGithubFill />,
   },
   {
-    path: '/',
-    name: <RiTwitterFill/>
+    path: "https://twitter.com/Sanskari_Rushi",
+    name: <RiTwitterFill />,
   },
   {
-    path: '/',
-    name: <RiInstagramFill/>
+    path: "https://www.instagram.com/sanskari_rushi/",
+    name: <RiInstagramFill />,
   },
-]
+];
 
 const Socials = ({containerStyles,iconsStyles}) => {
   return (

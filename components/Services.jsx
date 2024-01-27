@@ -18,7 +18,7 @@ const serviceData = [
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: "Web Development",
     description:
-      "Transforming digital ideas into reality, I excel in both front-end and back-end development. My expertise ranges from building responsive websites to implementing complex functionalities, delivering robust and efficient solutions.",
+      "I excel in both front-end and back-end development, transforming digital ideas into responsive websites with robust functionalities.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
