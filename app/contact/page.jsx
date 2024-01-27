@@ -20,10 +20,9 @@ const Contact = ()=> {
             </div>
             <h1 className="h1 max-w-md mb-8 ">Let's Work Together</h1>
             <p className="subtitle max-w-[400px]">
-              Get in touch with ease! Whether you have a project in mind,
-              questions about my services, or just want to say hello, I'm here
-              to connect. Reach out through the form below, and let's start a
-              conversation. Your ideas, my expertise - let's make it happen!
+              Reach out for projects, questions, or just to say hello! Let's
+              start a conversation—your ideas, my expertise. Let's make it
+              happen!
             </p>
           </div>
           {/* illustration  */}

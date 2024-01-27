@@ -24,7 +24,7 @@ const serviceData = [
     icon: <Gem size={72} strokeWidth={0.8} />,
     title: "SaaS",
     description:
-      "Experience the power of custom cloud-based software solutions. From concept and architecture to deployment, my SaaS service ensures your business enjoys the benefits of streamlined workflows and seamless collaboration. Empower your business with innovative and efficient software tailored to your unique needs.",
+      "Experience custom cloud-based solutions that streamline workflows from concept to deployment. Empower your business with innovative and efficient software tailored to your unique needs.",
   },
 ];
 
